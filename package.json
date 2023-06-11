@@ -5,6 +5,8 @@
   "scripts": {
     "auth": "graph auth https://api.thegraph.com/deploy/",
     "lint": "eslint ./src",
+    "create:defiverse": "graph create balancer-labs/gauges-defiverse --node http://18.140.231.184:8020",
+    "deploy:defiverse": "graph deploy balancer-labs/gauges-defiverse subgraph.defiverse.yaml  --ipfs http://18.140.231.184:5001 --node http://18.140.231.184:8020",
     "local:create": "graph create --node http://localhost:8020/ balancer-labs/gauges",
     "local:remove": "graph remove --node http://localhost:8020/ balancer-labs/gauges",
     "local:deploy": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 balancer-labs/gauges",

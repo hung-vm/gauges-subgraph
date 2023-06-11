@@ -154,3 +154,24 @@ avalanche:
     address: "0xb08E16cFc07C684dAA2f93C70323BAdb2A6CBFd2"
     transactionHash: "0xc8a449d928a916389eea16be827b0432d169975fead105d87850136581a108ca"
     startBlock: 26386697
+defiverse:
+  network: defiverse
+  EventEmitter:
+    address: "0x58530C4eC9CED16371e12e53f2E37c3E3F3e1a6b"
+    startBlock: 10
+  gaugeV2Factory:
+    address: "0x8f008aF430d589D9f5F09d5c7f38F45E2EdAb4a9"
+    transactionHash: "0x69d5c66e97faf5195e192ec1b8c094cab077dd318454210b1e6032525446ba2e"
+    startBlock: 974
+  singleRecipientGaugeV2Factory:
+    address: "0xAB8467D5ba051a761310E6FABC60F00B22f9f2de"
+    transactionHash: "0xac52c22da88d7a4a05449fcee88fd83949349b41325bb7495ba60faa7af121c3"
+    startBlock: 969
+  gaugeController:
+    address: "0x782896795C815d833D1d25C9cAf418AeE57Aa011"
+    transactionHash: "0x32f893a2e979c37e667bab09d960aba90b15d20755fc7a3aa1a5f05625421817"
+    startBlock: 937
+  votingEscrow:
+    address: "0x2600f00FB8E1182B1bC101D27682EC7AB7B3BB30"
+    transactionHash: "0xac018b4a7d00c656e53b7388dc632dff847912231b53619c73f0d7da10092182"
+    startBlock: 936
